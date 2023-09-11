@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded" , function(){
   calculateButton.addEventListener("click" , function(event){
     event.preventDefault();
 
-    const name = usernameInput.ariaValueMax;
+    const name = usernameInput.value;
     const dob = new Date(dobInput.value);
 
     const today = new Date();
